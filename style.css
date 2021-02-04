@@ -1865,7 +1865,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 .product {
-  margin: 0 auto;
+  margin-left: 230px;
   padding-top: 59px;
   width: 1140px;
   display: -webkit-box;
