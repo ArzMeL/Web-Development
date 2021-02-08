@@ -11,6 +11,13 @@ body {
     height: 100%;
 }
 
+.container {
+    width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -20,6 +27,7 @@ body {
 @import "header";
 
 .mainpic  {
+    margin: 0 auto;
     height: 665px;
     width: $site-width;
     background-image: url(img/mainimage.jpg);
@@ -388,7 +396,7 @@ red-text {
     margin-top: 48px;
 }
 
-.delivery,
+.delivery-prem,
 .sales,
 .quality {
     display: flex;
@@ -496,6 +504,7 @@ red-text {
 .new-prod-back {
     display: none;
     align-items: center;
+    color: white;
 }
 
 .new-prod-link-back:hover .new-prod-back {
@@ -514,6 +523,7 @@ red-text {
     display: none;
     align-items: center;
     margin-left: 752px;
+    color: white;
 }
 
 .new-prod-link-forvard:hover .new-prod-forvard {
@@ -763,7 +773,16 @@ margin-top: 22px;
     width: 15px;
     height: 15px;
     color: #e4af48;
+    &__cart {
+        font-size: 12px;
+    }
 }
+
+.fa-star-half-alt {
+    font-size: 12px;
+    color: #e4af48;
+}
+
 
 .also-like-prod:hover .stars {
     display: flex;
@@ -1096,6 +1115,10 @@ line-height: 1.2;
 font-weight: 400;
 text-transform: uppercase;
 color: #c0c0c0;
+    &__cart {
+        flex-direction: column;
+    margin: auto 0;
+    }
 }
 
 .delete-link:hover {
@@ -1250,7 +1273,7 @@ margin-left: 44px;
 }
 
 .product {
-    margin-left: 230px;
+    margin: 0 auto;
     padding-top: 59px;
     width: $content-width;
     display: flex;

@@ -1,5 +1,4 @@
 .menu {
-    padding-left: 460px;
     padding-top: 19px;
     padding-bottom: 19px;
     display: flex;
@@ -8,6 +7,7 @@
 
 .main-menu {
     position: relative;
+    margin: 0 auto;
 }
 
 .menu-list {
@@ -23,6 +23,23 @@
 
 .menu-list:hover .mega-box {
     display: flex;
+}
+
+.menu-list-last:hover .mega-box:before {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: -8px;
+    right: 240px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+        &__featured:hover  {
+            right: 100px;
+        }
 }
 
 .menu-link {
