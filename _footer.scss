@@ -1,0 +1,235 @@
+.subscribe {
+    width: $site-width;
+    margin-top: 97px;
+    position: relative;
+    display: flex;
+    &__product {
+        margin-top: 0px;
+    }
+}
+
+.background {
+    width: $site-width;
+}
+
+
+.feedback {
+    position: absolute;
+    width: 800px;
+    top: 123px;
+    left: 230px;
+    display: flex;
+}
+
+.feedback-text-box {
+    display: flex;
+    margin-left: 28px;
+    flex-wrap: wrap;
+    width: 386px;
+}
+
+.feedback-text {
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.feedback-name-box {
+    padding-top: 19px;
+}
+
+.feedback-name {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+}
+
+.feedback-adress {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 300;
+    color: #222224;
+}
+
+.pagination {
+    padding-top: 41px;
+    display: flex;
+    width: 150px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brick-unactive {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+}
+
+.brick-active {
+    width: 38px;
+    height: 4px;
+    background-color: #f16d7f;
+}
+
+.brick-unactive:hover {
+    background-color: #f16d7f;
+}
+
+.subscribe-right {
+    position: absolute;
+    right: 322px;
+    top: 148px;
+    text-align: center;
+}
+
+.subscribe-first-line {
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222224;
+}
+
+.subscribe-second-line {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.email {
+    padding-top: 35px;
+    display: flex;
+}
+
+.email-type {
+    width: 334px;
+    height: 42px;
+    background-color: #e1e1e1;
+    border-radius: 23px 0px 0px 23px;
+    float: left;
+    text-indent: 28px;
+}
+
+.email-enter {
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+
+.subscribe-button {
+    width: 104px;
+    height: 46px;
+    background-color: #f16d7f;
+    border-radius: 0px 23px 23px 0px;
+}
+
+.subscribe-button:hover {
+    background-color: #fff;
+    color: #f16d7f;
+}
+
+.info {
+    display: flex;
+    width: $site-width;
+}
+
+.about {
+    padding-top: 41px;
+    padding-left: 229px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #898989;
+    width: 427px;
+}
+
+.info-box {
+    display: flex;
+    padding-left: 64px;
+}
+
+.company {
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #f16d7f;
+    padding-top: 41px;
+}
+
+.table-link {
+    list-style-type: none;
+}
+
+.table-list {
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #898989;
+}
+
+.table-list:hover {
+    color: #f16d7f;
+}
+
+.information-box {
+    padding-left: 129px;
+}
+
+.category-box {
+    padding-left: 80px;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    width: $site-width;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #7a7a7a;
+    padding-left: 229px;
+    padding-top: 33px;
+}
+
+.social {
+    float: right;
+    padding-right: 231px;
+    padding-top: 33px;
+}
+
+.fab {
+    font-size: 32px;
+    color: #fff;
+}
+
+.fab:hover {
+    color: #f16d7f;
+}
