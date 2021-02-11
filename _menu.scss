@@ -1,0 +1,124 @@
+.menu {
+    padding-top: 19px;
+    padding-bottom: 19px;
+    display: flex;
+    width: 100%;
+}
+
+.main-menu {
+    position: relative;
+    margin: 0 auto;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-list-last:hover .mega-box {
+    right: 10px;
+    left: auto;
+    top: 32px;
+}
+
+.menu-list:hover .mega-box {
+    display: flex;
+}
+
+.menu-list-last:hover .mega-box:before {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: -8px;
+    right: 240px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+        &__featured:hover  {
+            right: 100px;
+        }
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #f16d7f;
+    border-bottom: 2px solid #f16d7f;
+}
+
+.mega-box {
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    display: none;
+    top: 32px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.mega-box:before {
+    content: "";
+    display: block;
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    top: -8px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+}
+
+.mega-item-box {
+    margin-right: 46px;
+}
+
+.mega-item-box:last-of-type {
+    margin-right: 0;
+}
+
+.mega-h3 {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #232323;
+    width: 235px;
+    padding: 8px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 16px;
+}
+
+.mega-link {
+    text-decoration: none;
+    display: block;
+    width: 235px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #646464;
+}
+
+.mega-link:hover {
+    color: #f16d7f;
+}
+
+.mega-list {
+    list-style-type: none;
+}
